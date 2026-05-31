@@ -6,7 +6,7 @@ export const SITE_CONTENT = {
       "Mentalidad, entrenamiento, nutrición y sueño: cómo construir un cuerpo fuerte, sano y duradero durante el resto de tu vida.",
     siteUrl: "",
     ogImage: "assets/cover-ebook-web.jpg",
-    amazonUrl: "https://diodocup.github.io/seduenodetucuerpo/",
+    amazonUrl: "https://amzn.eu/d/0cNucJey",
     downloadUrl: "assets/rutinas-simple-progresion.xlsx",
     routineSimpleUrl: "assets/rutinas-simple-progresion.xlsx",
     routineDoubleUrl: "assets/rutinas-doble-progresion.xlsx",
