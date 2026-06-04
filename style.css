@@ -1125,6 +1125,8 @@ summary:focus-visible {
 .mobile-cta .button {
   flex: 1;
   min-height: 48px;
+  padding: 0 10px;
+  font-size: 13px;
 }
 
 .closing-actions {
