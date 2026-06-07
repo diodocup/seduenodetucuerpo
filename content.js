@@ -10,7 +10,7 @@ export const SITE_CONTENT = {
     downloadUrl: "assets/rutinas-simple-progresion.xlsx",
     routineSimpleUrl: "assets/rutinas-simple-progresion.xlsx",
     routineDoubleUrl: "assets/rutinas-doble-progresion.xlsx",
-    sampleUrl: "assets/muestra-se-dueno-de-tu-cuerpo.pdf?v=20260607",
+    sampleUrl: "assets/SE_DUENO_DE_TU_CUERPO_MUESTRA.pdf?v=20260607",
     otherBookUrl: "https://diodocup.github.io/seduenodetutiempo/",
     author: "Rubén Soro Esteban",
     language: "es-ES",
