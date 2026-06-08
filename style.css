@@ -895,6 +895,85 @@ summary:focus-visible {
   text-align: center;
 }
 
+.routines-gender-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 22px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(33, 73, 58, 0.1);
+}
+
+.routines-gender-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.routines-gender-header {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(33, 73, 58, 0.1);
+}
+
+.routines-gender-name {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--text);
+}
+
+.routines-gender-note {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.routines-gender-group .resource-actions {
+  margin-top: 0;
+}
+
+.exercise-library-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: clamp(24px, 3.5vw, 36px) clamp(24px, 3.5vw, 42px);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(33, 73, 58, 0.12);
+  background:
+    radial-gradient(circle at top left, rgba(121, 187, 49, 0.1), transparent 32%),
+    linear-gradient(180deg, rgba(255, 255, 251, 0.94), rgba(238, 244, 232, 0.92));
+  box-shadow: var(--shadow-md);
+}
+
+.exercise-library-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.exercise-library-copy h3 {
+  margin: 8px 0 10px;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+}
+
+.exercise-library-copy p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 16px;
+  line-height: 1.65;
+  max-width: 52ch;
+}
+
+.exercise-library-button {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
 .audience-card {
   border-radius: var(--radius-lg);
   padding: 28px;
@@ -1293,6 +1372,17 @@ summary:focus-visible {
   .site-footer {
     padding-bottom: calc(108px + env(safe-area-inset-bottom, 0px));
   }
+
+  .exercise-library-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .exercise-library-button {
+    width: 100%;
+    text-align: center;
+    white-space: normal;
+  }
 }
 
 @media (max-width: 720px) {
@@ -1421,5 +1511,9 @@ summary:focus-visible {
 
   .footer-note {
     text-align: left;
+  }
+
+  .routines-gender-grid {
+    grid-template-columns: 1fr;
   }
 }

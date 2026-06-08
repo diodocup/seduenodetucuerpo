@@ -69,9 +69,9 @@ export const SITE_CONTENT = {
     },
   ],
   toolkit: {
-    title: "Llévate también las rutinas descargables",
+    title: "Rutinas descargables por objetivo",
     text:
-      "Dos hojas de cálculo para llevar el entrenamiento a la práctica: una rutina de progresión simple y otra de doble progresión, pensadas para aplicar los principios del libro con orden.",
+      "Cuatro hojas de cálculo para llevar el entrenamiento a la práctica, diferenciadas por sexo y tipo de progresión.",
   },
   sample: {
     title: "Lee una parte real del libro",
