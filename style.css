@@ -907,27 +907,32 @@ summary:focus-visible {
 .routines-gender-group {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
+  padding: 16px 18px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 251, 244, 0.7);
+  border: 1px solid rgba(33, 73, 58, 0.12);
 }
 
 .routines-gender-header {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(33, 73, 58, 0.1);
+  gap: 2px;
 }
 
 .routines-gender-name {
-  font-weight: 700;
-  font-size: 17px;
-  color: var(--text);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
 }
 
 .routines-gender-note {
   font-size: 13px;
   font-weight: 500;
   color: var(--text-muted);
+  font-style: italic;
 }
 
 .routines-gender-group .resource-actions {
