@@ -1009,6 +1009,64 @@ summary:focus-visible {
   white-space: nowrap;
 }
 
+.section-instagram-cta {
+  padding-block: clamp(40px, 5vw, 64px);
+}
+
+.instagram-cta-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: clamp(28px, 4vw, 44px) clamp(28px, 4vw, 52px);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at top right, rgba(121, 187, 49, 0.18), transparent 50%),
+    linear-gradient(135deg, #101f10 0%, #14210f 100%);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(121, 187, 49, 0.15);
+}
+
+.instagram-cta-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.instagram-cta-copy .section-label {
+  color: var(--accent-soft);
+}
+
+.instagram-cta-copy h3 {
+  margin: 8px 0 10px;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(22px, 2.8vw, 32px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #f0f5e8;
+}
+
+.instagram-cta-copy p {
+  margin: 0;
+  color: rgba(200, 220, 185, 0.75);
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 48ch;
+}
+
+.instagram-cta-btn {
+  flex-shrink: 0;
+  white-space: nowrap;
+  background: var(--accent-soft);
+  border-color: var(--accent-soft);
+  color: #0e1a0e;
+  font-weight: 800;
+}
+
+.instagram-cta-btn:hover {
+  background: #8ecf38;
+  border-color: #8ecf38;
+}
+
 .audience-card {
   border-radius: var(--radius-lg);
   padding: 28px;
@@ -1411,6 +1469,16 @@ summary:focus-visible {
   .exercise-library-card {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .instagram-cta-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .instagram-cta-btn {
+    width: 100%;
+    text-align: center;
   }
 
   .exercise-library-button {
