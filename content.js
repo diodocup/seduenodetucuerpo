@@ -253,6 +253,11 @@ export const SITE_CONTENT = {
         text: "Tengo ya unos añitos y siempre creí que cuidarme a esta edad era caminar un poco y comer ligero. Este libro me ha cambiado el chip: andar no es suficiente y lo que de verdad necesito es entrenar fuerza, justo lo que pensaba que “no era para mí”. Me tranquilizó que la parte de comida no sea una lista de prohibiciones, sino algo que una puede sostener en la vida real. Se agradece la honestidad: ni gurús ni milagros, solo explicaciones claras y con sentido. Llevo unas semanas entrenando y durmiendo mejor que en años. Si crees que a tu edad ya es tarde, te aseguro que no lo es.",
         meta: "8 DE JUNIO DE 2026",
       },
+      {
+        title: "Por fin alguien que no te vende humo",
+        text: "Llevo años leyendo sobre entrenamiento y nutrición, y casi todo se repite o quiere venderte algo. Este libro no: se nota que el autor no es coach ni influencer, separa muy bien lo que funciona del ruido, sin atajos ni fórmulas mágicas y sin demonizar alimentos. Lo mejor es que no va solo de pesas, trata mentalidad, entrenamiento, nutrición y sueño como un sistema, con criterio y mucho sentido común. El capítulo sobre expectativas y redes debería ser obligatorio, y el bloque de sueño ya me ha cambiado un par de hábitos esta misma semana. Si estás cansado de promesas y quieres algo que de verdad puedas sostener durante años, cómpralo.",
+        meta: "15 DE JUNIO DE 2026",
+      },
     ],
   },
   faq: [
